@@ -4,8 +4,6 @@ name: Deploy Azure TRE
 # It also runs on a schedule, serving as the nightly build
 
 on:  # yamllint disable-line rule:truthy
-  push:
-    branches: [main]
   workflow_dispatch:
     inputs:
       environment:
